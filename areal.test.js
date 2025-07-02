@@ -1,5 +1,5 @@
-const { arealAvKvadrat } = require('./arealAvKvadrat');
+const { areal } = require('./arealAvKvadrat');
 
 test('beregner arealet av kvadratet korrekt', () => {
-  expect(arealAvKvadrat(6)).toBe(36);
+  expect(areal(6)).toBe(36);
 });
