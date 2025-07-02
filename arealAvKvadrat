@@ -16,3 +16,11 @@ console.log("Arealet av kvadratet er ",arealAvKvadrat);
 //Sjekk at du får skrevet ut svaret 36 i Output-vinduet
 //Klikk på ikon for "Source control", skriv inn en 
 //kort kommentar til innleveringen og klikk på knappen for å synkronisere/laste opp.
+
+
+//Her er en kodesnutt som skal sørge for at automatisk testing av koden fungerer. Ikke rør.
+function arealAvKvadrat(side) {
+  return side * side;
+}
+
+module.exports = { arealAvKvadrat };
